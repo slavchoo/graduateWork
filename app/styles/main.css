@@ -49,3 +49,11 @@ body {
     width: 100%;
 }
 
+.members img {
+    width: 70px;
+}
+
+.members .item {
+    padding-top: 15px;
+}
+
