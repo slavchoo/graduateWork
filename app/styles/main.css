@@ -22,3 +22,30 @@ body {
 .footer {
     margin-top: 40px;
 }
+
+.progress {
+    margin-top: 8px;
+}
+
+.package-title .label {
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.package-container .item{
+    border-right: 1px solid #222;
+}
+
+.package-container .item:last-child {
+    border-right: 0px;
+}
+
+.package-container .item img{
+    width: 68px;
+}
+
+.package-container .item textarea {
+    margin-top: 10px;
+    width: 100%;
+}
+
