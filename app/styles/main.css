@@ -3,3 +3,22 @@ body {
   padding-top: 80px;
   padding-bottom: 20px;
 }
+
+.progress-block{
+    padding-top: 10px;
+}
+.progress-block.left {
+    border-right: 1px solid #222222;
+}
+
+.progress-block.right {
+    border-left: 1px solid #222222;
+}
+
+.progress-block img{
+    width: 70px;
+}
+
+.footer {
+    margin-top: 40px;
+}
