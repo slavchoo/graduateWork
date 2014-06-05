@@ -1,28 +1,19 @@
 <ol class="breadcrumb">
     <li><a ng-href="/">Главная</a></li>
     <li><a ng-href="/">Список пакетов</a></li>
-    <li class="active">Просмотр пакета</li>
+    <li class="active">Редактирование пакета</li>
 </ol>
 
 
 <div class="row package-title">
-    <h4 class="col-sm-3">Пакет документов 1</h4>
-
-    <div class="col-sm-3">
-        <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                <span class="sr-only">40% Complete (success)</span>
+    <form class="form-horizontal col-md-6" role="form">
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-3 control-label">Название</label>
+            <div class="col-sm-9">
+                <input type="email" class="form-control" id="inputEmail3" value="Пакет докуметов 1">
             </div>
         </div>
-    </div>
-    <div class="col-sm-3">
-        <span class="label label-default">Черновик</span>
-    </div>
-
-    <div class="col-sm-3 pull-right text-right col-sm-offset-">
-        <a ng-href="/#/package/delete/1">Удалить</a> &nbsp;
-        <a ng-href="/#/package/edit/1">Редактировать</a>
-    </div>
+    </form>
 </div>
 
 <hr/>
@@ -31,53 +22,53 @@
     <div class="col-md-4 item">
         <ul class="list-group">
             <li class="list-group-item">
-                <span class="badge"><i class="glyphicon glyphicon-ok"></i></span>
+                <span class="badge"><i class="glyphicon glyphicon-remove-circle"></i></span>
                 Документ 1
             </li>
             <li class="list-group-item">
-                <span class="badge badge-success"><i class="glyphicon glyphicon-wrench"></i></span>
+                <span class="badge badge-success"><i class="glyphicon glyphicon-remove-circle"></i></span>
                 Документ 2
             </li>
             <li class="list-group-item">
-                <span class="badge badge-success"><i class="glyphicon glyphicon-repeat"></i></span>
+                <span class="badge badge-success"><i class="glyphicon glyphicon-remove-circle"></i></span>
                 Документ 3
             </li>
             <li class="list-group-item">
-                <span class="badge badge-success"><i class="glyphicon glyphicon-ok"></i></span>
+                <span class="badge badge-success"><i class="glyphicon glyphicon-remove-circle"></i></span>
                 Документ 4
             </li>
             <li class="list-group-item">
-                <span class="badge badge-success"><i class="glyphicon glyphicon-ok"></i></span>
+                <span class="badge badge-success"><i class="glyphicon glyphicon-remove-circle"></i></span>
                 Документ 5
             </li>
         </ul>
     </div>
     <div class="col-md-4 item">
-        <div>
-            <img src="/images/no-avatar-male.jpg" alt="" class="img-circle col-sm-4">
-            <p class="col-sm-8">Нужно добавить обоснование проблемы</p>
-        </div>
-        <div>
-            <img src="/images/no-avatar-female.jpg" alt="" class="img-circle col-sm-4">
-            <p class="col-sm-8">Поправить форматирование во второй части</p>
-        </div>
-        <div>
-            <img src="/images/no-avatar-male.jpg" alt="" class="img-circle col-sm-4">
-            <p class="col-sm-8">Поправить форматирование во второй части</p>
-        </div>
-        <div>
-            <textarea></textarea>
-            <a ng-href="" class="pull-right">Добавить коментарий</a>
-        </div>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <span class="badge"><i class="glyphicon glyphicon-remove-circle"></i></span>
+                Документ 1
+            </li>
+            <li class="list-group-item">
+                <span class="badge badge-success"><i class="glyphicon glyphicon-remove-circle"></i></span>
+                Документ 2
+            </li>
+            <li class="list-group-item">
+                <span class="badge badge-success"><i class="glyphicon glyphicon-remove-circle"></i></span>
+                Документ 3
+            </li>
+            <li class="list-group-item">
+                <span class="badge badge-success"><i class="glyphicon glyphicon-remove-circle"></i></span>
+                Документ 4
+            </li>
+            <li class="list-group-item">
+                <span class="badge badge-success"><i class="glyphicon glyphicon-remove-circle"></i></span>
+                Документ 5
+            </li>
+        </ul>
     </div>
     <div class="col-md-4 item">
-        <select class="form-control">
-            <option>На доработке</option>
-        </select>
-        <br/>
-
-        <h5>Василий отправил на доработку <br/><small>03-04-2014</small></h5>
-        <h5>Петр подтвердил <br/><small>04-04-2014</small></h5>
+        <a ng-href="">Добавить документ</a>
     </div>
 </div>
 
@@ -113,4 +104,9 @@
     <div class="col-md-2">
         <a ng-href="">Добавить участника</a>
     </div>
+</div>
+
+<div class="row text-right">
+    <a ng-href="/#/package/1" class="btn btn-default">Назад</a>
+    <a ng-href="" class="btn btn-primary">Сохранить</a>
 </div>

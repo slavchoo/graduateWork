@@ -27,6 +27,10 @@ angular
                 templateUrl: 'views/package.html',
                 controller: 'MainCtrl'
             })
+            .when('/package/edit/:id', {
+                templateUrl: 'views/package-edit.html',
+                controller: 'MainCtrl'
+            })
             .when('/login', {
                 templateUrl: 'views/login.html',
                 controller: 'MainCtrl'
