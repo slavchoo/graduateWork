@@ -31,6 +31,14 @@ angular
                 templateUrl: 'views/registration.html',
                 controller: 'MainCtrl'
             })
+            .when('/progress', {
+                templateUrl: 'views/progress.html',
+                controller: 'MainCtrl'
+            })
+            .when('/user', {
+                templateUrl: 'views/user.html',
+                controller: 'MainCtrl'
+            })
             .otherwise({
                 redirectTo: '/'
             });
