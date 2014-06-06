@@ -2,9 +2,8 @@
   "name": "graduatework",
   "version": "0.0.0",
   "dependencies": {
-    "gzippo": "~0.2.0",
-    "express": "~4.4.1",
-    "morgan": "~1.1.1"
+      "gzippo": "0.2.0",
+      "express": "3.4.8"
   },
   "devDependencies": {
     "grunt": "^0.4.1",
